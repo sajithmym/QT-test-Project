@@ -1,0 +1,158 @@
+# Qt-CMake .gitignore
+
+# Build directories
+build/
+build-*/
+debug/
+release/
+Debug/
+Release/
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# Qt generated files
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+*.moc.cpp
+*.moc.hpp
+moc_*.cpp
+moc_*.hpp
+ui_*.h
+qrc_*.cpp
+
+# Qt Temp files
+.tmp
+*.tmp
+.qmake.stash
+
+# Generated executable files
+bin/
+*.exe
+*.app
+QtLearningApp
+QtLearningApp.exe
+
+# IDE files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/c_cpp_properties.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Backup files
+*.bak
+*.backup
+*.orig
+*.rej
+
+# Log files
+*.log
+
+# Compiled Object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+*.a
+*.lib
+
+# Dependencies
+*.d
+
+# Package files
+*.deb
+*.rpm
+*.pkg
+*.dmg
+*.msi
+
+# Archive files (unless needed)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Temporary Qt Designer files
+*.ui.autosave
+
+# Qt Linguist files (unless translations are needed)
+*.qm
+*.ts.bak
+
+# Qt Resource Compiler temporary files
+*.rcc
+
+# Unit test results
+test-results/
+*.xml
+
+# Coverage reports
+coverage/
+*.gcov
+*.gcno
+*.gcda
+
+# Static analysis results
+*.scan
+
+# Profiler data
+*.prof
+*.perf
+callgrind.out.*
+
+# Valgrind output
+vgcore.*
+
+# Core dumps
+core
+core.*
+
+# Local configuration (project specific)
+local_config.h
+config.local
+.env.local
+
+# Documentation build output
+docs/_build/
+docs/html/
+docs/latex/
+
+# Custom build scripts output
+scripts/build/
+scripts/output/
